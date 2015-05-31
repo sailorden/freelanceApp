@@ -15,9 +15,12 @@ projectControllers.controller('ListController', ['$scope', '$http', function($sc
       // im Projekt am Server mit namen initialisieren
       // einnahmen und ausgaben sind bei initialisierung noch leer
       // aus dem backend brauchen wir wieder alle projekte zurückgeschickt
-      $http.post('/api/addProject', dataObj)
+      $http.post('#/projects', dataObj)
       .success(function(postData, headers, config){
         $scope.projects = postData;
+      })
+      .error(function(data){
+        console.log(data);
       });
 
     }; //addProject
@@ -41,10 +44,13 @@ projectControllers.controller('DetailsController', ['$scope', '$http','$routePar
       // einnahmen am Server
       // im Projekt mit mitgelieferter ID updaten (oldEinnahmen + newEinnahme)
 
-      $http.post('api/addEinnahme', data)
+      $http.post('#/projects/'+$scope.whichItem, data)
       .success(function(data){
         $scope.projects = data;
-      });
+      })
+      .error(function(data){
+        console.log(data);
+      });;
     };  //addEinnahme
 
     $scope.addAusgabe = function(){
@@ -57,10 +63,13 @@ projectControllers.controller('DetailsController', ['$scope', '$http','$routePar
       // ausgaben am Server
       // im Projekt mit mitgelieferter ID updaten (oldAusgaben + newAusgabe)
 
-      $http.post('api/addAusgabe', data)
+      $http.post('#/projects/'+$scope.whichItem, data)
       .success(function(data){
         $scope.projects = data;
-      });
+      })
+      .error(function(data){
+        console.log(data);
+      });;
     };  //addAusgabe
 
   });
