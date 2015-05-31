@@ -1,0 +1,27 @@
+[
+  {
+    "name":"project1",
+    "einnahmen":"10",
+    "ausgaben":"20"
+  }, 
+  {
+    "name":"project2",
+    "einnahmen":"10",
+    "ausgaben":"5"
+  },
+  {
+    "name":"project3",
+    "einnahmen":"10",
+    "ausgaben":"34"
+  },
+  {
+    "name":"project4",
+    "einnahmen":"10",
+    "ausgaben":"3"
+  },
+  {
+    "name":"project5",
+    "einnahmen":"10",
+    "ausgaben":"7"
+  }
+]
