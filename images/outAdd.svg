@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 3 + + 3</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-690.000000, -688.000000)">
+            <g id="Oval-3-+-+-3" sketch:type="MSLayerGroup" transform="translate(694.000000, 682.000000)">
+                <circle id="Oval-3" stroke="#FFCCC4" stroke-width="3.36" fill="#FFCCC4" sketch:type="MSShapeGroup" cx="17" cy="27" r="17"></circle>
+                <text id="+-3" sketch:type="MSTextLayer" font-family="Courier" font-size="42" font-weight="bold" sketch:alignment="middle" fill="#EA523B">
+                    <tspan x="4.39794922" y="40">+</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
