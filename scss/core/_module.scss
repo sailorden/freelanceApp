@@ -61,7 +61,7 @@
     opacity: 1;
   }
 }
-
+/* Button für Projekte */
 .btn_project{
   @include button_style($color_btn_project, $color_btn_project_text, $fontsize_btn_project, $height_btn_project);
 

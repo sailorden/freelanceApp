@@ -3,19 +3,19 @@
   <div class="project cf" ng-model="projects">
     <h1>{{projects[whichItem].name}}</h1>
     <form class="addEinnahmen" ng-submit="addEinnahme()">
-        <label>Einnahme hinzufügen: </label>
-        <input ng-model="amountNewEinnahme" placeholder="Summe der Einnahme eingeben..." autofocus>
-        <button type="submit">eintragen</button>
+        <label>Einnahme hinzufügen: </label></br>
+        <input class="btn_in" ng-model="amountNewEinnahme" placeholder="Summe der Einnahme eingeben..." autofocus>
+        <button class="btn_in" type="submit">+</button>
     </form>
     <div class="addAusgaben">
-        <label>Ausgabe hinzufügen: </label>
-        <input ng-model="amountNewAusgabe" placeholder="Summe der Ausgabe eingeben...">
-        <button>eintragen</button>
+        <label>Ausgabe hinzufügen: </label></br>
+        <input class ="btn_out" ng-model="amountNewAusgabe" placeholder="Summe der Ausgabe eingeben...">
+        <button class ="btn_out">+</button>
     </div>
     <br>
     <div class="info">
-      <div>Einnahmen: {{projects[whichItem].einnahmen}} €</div>
-      <div>Ausgaben: {{projects[whichItem].ausgaben}} €</div>
+      <div class="btn_in">Einnahmen: {{projects[whichItem].einnahmen}} €</div>
+      <div class ="btn_out">Ausgaben: {{projects[whichItem].ausgaben}} €</div>
 
 <!--       <div>neue Einnahme: {{amountNewEinnahme}} €</div>
  -->

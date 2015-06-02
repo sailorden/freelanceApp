@@ -1,23 +1,27 @@
 <section class="projectpage">
   <div class="search">
-    <h1>freelance App</h1>
-    <label>search: </label>
+    <h2>freelance App</h2>
+    <h1><label>search: </label></h1>
     <input ng-model="query" placeholder="Search for projects" autofocus>
-  </div>
+  </div></br>
 
   <div class="addProject">
-    <label>add Project: </label>
+    <h1><label>add Project: </label></h1>
     <input ng-model="newProject" placeholder="add project">
-    <button ng-click="addProject()">+</button>
-  </div>
+  </div></br>
+    </br>
 
-  <ul class="projectlist">
+  <ul style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
       <a href="#/projects/{{projects.indexOf(item)}}">
         <div class="info">
-          <h2>{{item.name}} <span>sum: {{item.einnahmen - item.ausgaben}}</span></h2>
+          <button class="btn_project">{{item.name}} <span>sum: {{item.einnahmen - item.ausgaben}}</span></h2>
         </div>
       </a>
     </li>
   </ul>
+
+  <button class="btn_project" ng-click="addProject()">+</button>
+
+
 </section>
