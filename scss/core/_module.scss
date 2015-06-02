@@ -1,0 +1,141 @@
+/*@mixin button_style($text-color, $background-color, $border-color){
+  border:none;
+  font-size:16px;
+  padding: 10px;
+
+  color: $text-color;
+  background-color: $background-color;
+  border-radius: 5px;
+  border-bottom: 5 px solid $border-color;
+
+  transition: ease-in-out $transition-time all;
+
+  &:hover{
+    background-color: lighten($background-color,15%);
+  }
+}
+
+
+
+
+.btn{
+
+  @include button_style($white, $main-color, $second-color);
+
+}
+
+.btn--special {
+  @include button_style($black, green, blue);
+}
+
+
+.form{
+  font-family: arial, sans-serif;
+
+  }
+
+
+.__label{
+  font-size: 10px;
+}
+.--name{
+  font-family: "Bookman", Georgia, "Times New Roman", serif;
+}*/
+
+@mixin button_style($background_color, $text_color, $fontsize, $btnheight){
+  border-radius: 8px;
+  width: 700px;
+  text-shadow:none !important;
+  border:none !important;
+  box-shadow:none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+
+  background-color: $background-color;
+  color: $text_color;
+  font-size: $fontsize;
+  height: $btnheight;
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.btn_project{
+  @include button_style($color_btn_project, $color_btn_project_text, $fontsize_btn_project, $height_btn_project);
+
+}
+
+.btn_in{
+  @include button_style($color_btn_in, $color_btn_in_text, $fontsize_btn_in_out, $height_btn_in_out);
+}
+
+.btn_out{
+  @include button_style($color_btn_out, $color_btn_out_text, $fontsize_btn_in_out, $height_btn_in_out);
+}
+
+.titel_in{
+    @include button_style($transparent, $color_btn_in_text, $titelfontsize, $height_btn_project);
+}
+
+.titel_out{
+  @include button_style($transparent, $color_btn_out_text, $titelfontsize, $height_btn_project);
+
+}
+
+.sum_in{
+  @include button_style($transparent, $color_btn_in_text, $fontsize_btn_in_out, $height_btn_in_out);
+  text-align: right;
+  padding: 20px;
+  font-family: 'SinkinSans-400Regular';
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.sum_out{
+  @include button_style($transparent, $color_btn_out_text, $fontsize_btn_in_out, $height_btn_in_out);
+  text-align: right;
+  padding: 20px;
+  font-family: 'SinkinSans-400Regular';
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+@mixin text_style($fontfamily, $floatdirection){
+
+
+  font-family: $fontfamily;
+  float: $floatdirection;
+ padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+
+.left{
+  @include text_style($fontfamily_left, $float_left);
+}
+
+.right{
+  @include text_style($fontfamily_right, $float_right);
+}
+
+img{
+  opacity: 0.8;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+h1{
+  font-family: 'SinkinSans-500Medium';
+  font-size: 30px;
+  letter-spacing: 12.5px;
+}
+
+h2{
+  font-family: 'SinkinSans-400Regular';
+  font-size: 50px;
+}

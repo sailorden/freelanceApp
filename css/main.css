@@ -1,0 +1,233 @@
+/*@import 'core/base';
+@import 'core/variables';
+@import 'core/layout';
+@import 'core/module';
+@import 'core/state';
+@import 'core/theme';*/
+html {
+  text-align: center; }
+
+/*
+
+//color
+
+$main-color: #8A60AC;
+
+$second-color: darken($main-color, 10%);
+
+$highlight: lighten($main-color, 15%);
+
+$white: #fff;
+
+$black: #000;
+
+//transitions
+$transition-time:0.2s;*/
+/*@mixin button_style($text-color, $background-color, $border-color){
+  border:none;
+  font-size:16px;
+  padding: 10px;
+
+  color: $text-color;
+  background-color: $background-color;
+  border-radius: 5px;
+  border-bottom: 5 px solid $border-color;
+
+  transition: ease-in-out $transition-time all;
+
+  &:hover{
+    background-color: lighten($background-color,15%);
+  }
+}
+
+
+
+
+.btn{
+
+  @include button_style($white, $main-color, $second-color);
+
+}
+
+.btn--special {
+  @include button_style($black, green, blue);
+}
+
+
+.form{
+  font-family: arial, sans-serif;
+
+  }
+
+
+.__label{
+  font-size: 10px;
+}
+.--name{
+  font-family: "Bookman", Georgia, "Times New Roman", serif;
+}*/
+.btn_project {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: #bccceb;
+  color: #5f688c;
+  font-size: 24px;
+  height: 70px; }
+  .btn_project:hover {
+    opacity: 1; }
+
+.btn_in {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: #A1C9A1;
+  color: #417505;
+  font-size: 18px;
+  height: 40px; }
+  .btn_in:hover {
+    opacity: 1; }
+
+.btn_out {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: #FFCCC4;
+  color: #EA523B;
+  font-size: 18px;
+  height: 40px; }
+  .btn_out:hover {
+    opacity: 1; }
+
+.titel_in {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: transparent;
+  color: #417505;
+  font-size: 35px;
+  height: 70px; }
+  .titel_in:hover {
+    opacity: 1; }
+
+.titel_out {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: transparent;
+  color: #EA523B;
+  font-size: 35px;
+  height: 70px; }
+  .titel_out:hover {
+    opacity: 1; }
+
+.sum_in {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: transparent;
+  color: #417505;
+  font-size: 18px;
+  height: 40px;
+  text-align: right;
+  padding: 20px;
+  font-family: 'SinkinSans-400Regular'; }
+  .sum_in:hover {
+    opacity: 1; }
+  .sum_in:hover {
+    opacity: 0.8; }
+
+.sum_out {
+  border-radius: 8px;
+  width: 700px;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px;
+  font-family: 'SinkinSans-700Bold';
+  background-color: transparent;
+  color: #EA523B;
+  font-size: 18px;
+  height: 40px;
+  text-align: right;
+  padding: 20px;
+  font-family: 'SinkinSans-400Regular'; }
+  .sum_out:hover {
+    opacity: 1; }
+  .sum_out:hover {
+    opacity: 0.8; }
+
+.left {
+  font-family: "SinkinSans-500Medium";
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block; }
+
+.right {
+  font-family: "SinkinSans-100Thin";
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block; }
+
+img {
+  opacity: 0.8; }
+  img:hover {
+    opacity: 1; }
+
+h1 {
+  font-family: 'SinkinSans-500Medium';
+  font-size: 30px;
+  letter-spacing: 12.5px; }
+
+h2 {
+  font-family: 'SinkinSans-400Regular';
+  font-size: 50px; }
+
+@font-face {
+  font-family: 'SinkinSans-500Medium';
+  src: url("../font/SinkinSans-500Medium.otf") format("truetype"); }
+@font-face {
+  font-family: 'SinkinSans-100Thin';
+  src: url("../font/SinkinSans-100Thin.otf") format("truetype"); }
+@font-face {
+  font-family: 'SinkinSans-400Regular';
+  src: url("../font/SinkinSans-400Regular.otf") format("truetype"); }
+@font-face {
+  font-family: 'SinkinSans-700Bold';
+  src: url("../font/SinkinSans-700Bold.otf") format("truetype"); }
+@font-face {
+  font-family: 'SinkinSans-200XLight';
+  src: url("../font/SinkinSans-200XLight.otf") format("truetype"); }

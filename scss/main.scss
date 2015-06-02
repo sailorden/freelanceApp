@@ -1,0 +1,29 @@
+/*@import 'core/base';
+@import 'core/variables';
+@import 'core/layout';
+@import 'core/module';
+@import 'core/state';
+@import 'core/theme';*/
+
+@import 'core/base';
+@import 'core/variables';
+@import 'core/layout';
+@import 'core/module';
+@import 'core/state';
+@import 'core/theme';
+
+
+@font-face { font-family: 'SinkinSans-500Medium';
+  src: url('../font/SinkinSans-500Medium.otf') format('truetype'); }
+
+@font-face { font-family: 'SinkinSans-100Thin';
+  src: url('../font/SinkinSans-100Thin.otf') format('truetype'); }
+
+@font-face { font-family: 'SinkinSans-400Regular';
+  src: url('../font/SinkinSans-400Regular.otf') format('truetype'); }
+
+@font-face { font-family: 'SinkinSans-700Bold';
+  src: url('../font/SinkinSans-700Bold.otf') format('truetype'); }
+
+@font-face { font-family: 'SinkinSans-200XLight';
+  src: url('../font/SinkinSans-200XLight.otf') format('truetype'); }
