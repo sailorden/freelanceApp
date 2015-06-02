@@ -3,17 +3,21 @@ var myApp = angular.module('myApp', [
   'projectControllers'
 ]);
 
+
+
 myApp.config(['$routeProvider', function($routeProvider) {
+  
   $routeProvider.
-  when('/list', {
+  when('/projects', {
     templateUrl: 'partials/list.html',
     controller: 'ListController'
   }).
-  when('/details/:itemId', {
+  when('/projects/:itemId', {
     templateUrl: 'partials/details.html',
     controller: 'DetailsController'
   }).
   otherwise({
-    redirectTo: '/list'
+    redirectTo: '/projects'
   });
+  
 }]);
