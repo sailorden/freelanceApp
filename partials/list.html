@@ -1,27 +1,27 @@
 <section class="projectpage">
+  <!-- Header-Bild -->
+  <img src="images/logo___.svg" alt="logo">
+  <!-- Header-Bild -->
   <div class="search">
-    <h2>freelance App</h2>
-    <h1><label>search: </label></h1>
+    <!-- <h1><label>search: </label></h1> -->
     <input ng-model="query" placeholder="Search for projects" autofocus>
-  </div></br>
+  </div>
 
   <div class="addProject">
-    <h1><label>add Project: </label></h1>
+    <!-- <h1><label>add Project: </label></h1> -->
     <input ng-model="newProject" placeholder="add project">
-  </div></br>
-    </br>
+    <img src="images/projectAdd.svg" alt="Project_Add" ng-click="addProject()">
+  </div>
+  
 
   <ul style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
       <a href="#/projects/{{projects.indexOf(item)}}">
         <div class="info">
-          <button class="btn_project">{{item.name}} <span>sum: {{item.einnahmen - item.ausgaben}}</span></h2>
+          <button class="btn_project"><span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span></h2>
         </div>
       </a>
     </li>
   </ul>
-
-  <button class="btn_project" ng-click="addProject()">+</button>
-
 
 </section>

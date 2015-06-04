@@ -1,71 +1,8 @@
-/*@import 'core/base';
-@import 'core/variables';
-@import 'core/layout';
-@import 'core/module';
-@import 'core/state';
-@import 'core/theme';*/
+@charset "UTF-8";
 html {
   text-align: center; }
 
-/*
-
-//color
-
-$main-color: #8A60AC;
-
-$second-color: darken($main-color, 10%);
-
-$highlight: lighten($main-color, 15%);
-
-$white: #fff;
-
-$black: #000;
-
-//transitions
-$transition-time:0.2s;*/
-/*@mixin button_style($text-color, $background-color, $border-color){
-  border:none;
-  font-size:16px;
-  padding: 10px;
-
-  color: $text-color;
-  background-color: $background-color;
-  border-radius: 5px;
-  border-bottom: 5 px solid $border-color;
-
-  transition: ease-in-out $transition-time all;
-
-  &:hover{
-    background-color: lighten($background-color,15%);
-  }
-}
-
-
-
-
-.btn{
-
-  @include button_style($white, $main-color, $second-color);
-
-}
-
-.btn--special {
-  @include button_style($black, green, blue);
-}
-
-
-.form{
-  font-family: arial, sans-serif;
-
-  }
-
-
-.__label{
-  font-size: 10px;
-}
-.--name{
-  font-family: "Bookman", Georgia, "Times New Roman", serif;
-}*/
+/* Button für Projekte */
 .btn_project {
   border-radius: 8px;
   width: 700px;
@@ -146,6 +83,7 @@ $transition-time:0.2s;*/
   .titel_out:hover {
     opacity: 1; }
 
+/* Summe (wird nicht mehr benötigt) */
 .sum_in {
   border-radius: 8px;
   width: 700px;
@@ -188,6 +126,7 @@ $transition-time:0.2s;*/
   .sum_out:hover {
     opacity: 0.8; }
 
+/* Summe (wird nicht mehr benötigt) */
 .left {
   font-family: "SinkinSans-500Medium";
   float: left;

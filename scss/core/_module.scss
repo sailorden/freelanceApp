@@ -1,47 +1,3 @@
-/*@mixin button_style($text-color, $background-color, $border-color){
-  border:none;
-  font-size:16px;
-  padding: 10px;
-
-  color: $text-color;
-  background-color: $background-color;
-  border-radius: 5px;
-  border-bottom: 5 px solid $border-color;
-
-  transition: ease-in-out $transition-time all;
-
-  &:hover{
-    background-color: lighten($background-color,15%);
-  }
-}
-
-
-
-
-.btn{
-
-  @include button_style($white, $main-color, $second-color);
-
-}
-
-.btn--special {
-  @include button_style($black, green, blue);
-}
-
-
-.form{
-  font-family: arial, sans-serif;
-
-  }
-
-
-.__label{
-  font-size: 10px;
-}
-.--name{
-  font-family: "Bookman", Georgia, "Times New Roman", serif;
-}*/
-
 @mixin button_style($background_color, $text_color, $fontsize, $btnheight){
   border-radius: 8px;
   width: 700px;
@@ -83,7 +39,7 @@
   @include button_style($transparent, $color_btn_out_text, $titelfontsize, $height_btn_project);
 
 }
-
+/* Summe (wird nicht mehr benötigt) */
 .sum_in{
   @include button_style($transparent, $color_btn_in_text, $fontsize_btn_in_out, $height_btn_in_out);
   text-align: right;
@@ -103,7 +59,7 @@
     opacity: 0.8;
   }
 }
-
+/* Summe (wird nicht mehr benötigt) */
 @mixin text_style($fontfamily, $floatdirection){
 
 

@@ -134,6 +134,28 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/screenshots\/projektunterseite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213032,
+		"inputAbbreviatedPath": "\/screenshots\/projektunterseite.png",
+		"outputAbbreviatedPath": "\/screenshots\/projektunterseite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/screenshots\/startseite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193141,
+		"inputAbbreviatedPath": "\/screenshots\/startseite.png",
+		"outputAbbreviatedPath": "\/screenshots\/startseite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/scss\/core\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
