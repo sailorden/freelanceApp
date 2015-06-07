@@ -1,6 +1,6 @@
 <section class="projectpage">
   <!-- Header-Bild -->
-  <img src="images/logo___.svg" alt="logo">
+  <img src="images/logo.svg" alt="logo">
   <!-- Header-Bild -->
   <div class="search">
     <!-- <h1><label>search: </label></h1> -->
@@ -12,7 +12,7 @@
     <input ng-model="newProject" placeholder="add project">
     <img src="images/projectAdd.svg" alt="Project_Add" ng-click="addProject()">
   </div>
-  
+
 
   <ul style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
