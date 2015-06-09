@@ -4,12 +4,12 @@
   <!-- Header-Bild -->
   <div class="search">
     <!-- <h1><label>search: </label></h1> -->
-    <input ng-model="query" placeholder="Search for projects" autofocus>
-  </div>
+    <input type="text" ng-model="query" placeholder="Search for projects" class="focus">
+  </div></br>
 
   <div class="addProject">
     <!-- <h1><label>add Project: </label></h1> -->
-    <input ng-model="newProject" placeholder="add project">
+    <input type="text" ng-model="newProject" placeholder="add project" class="focus"></br>
     <img src="images/projectAdd.svg" alt="Project_Add" ng-click="addProject()">
   </div>
 

@@ -16,3 +16,8 @@ Freelance App
 - "Back" - Button needs to be styled
 - "Sum" needs to be dezimal (€10,00)
 - fonts in svg's need to be changed
+
+##SCSS with Codekit into CSS (Matthias Harreither)
+
+- Input fields styled
+- "Back" Button new

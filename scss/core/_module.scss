@@ -1,3 +1,25 @@
+/* Textfield */
+input[type="text"] {
+  border-radius: 8px;
+  width: 680px;
+  font-family: $fontfamily_left;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: $height_btn_in_out;
+  text-align: left;
+  border: 1px solid $black;
+  padding-right: 20px;
+  text-shadow:none !important;
+  box-shadow:none !important;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border:none;
+}
+/* Textfield */
+
 @mixin button_style($background_color, $text_color, $fontsize, $btnheight){
   border-radius: 8px;
   width: 700px;
