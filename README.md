@@ -27,3 +27,8 @@ Freelance App
 - Input fields styled
 - "Back" Button new
 - date 11.05.15
+
+##Backend
+
+- Backend with Angular
+- date 11.05.15

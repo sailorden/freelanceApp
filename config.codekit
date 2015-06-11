@@ -11,28 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/freelancetool_backend\/api\/controllers\/ProjectController.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/controllers\/ProjectController.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/controllers\/min\/ProjectController-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/freelancetool_backend\/api\/models\/Project.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/models\/Project.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/models\/min\/Project-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/freelancetool_backend\/api\/policies\/sessionAuth.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -141,17 +119,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/freelancetool_backend\/config\/blueprints.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/blueprints.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/blueprints-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/freelancetool_backend\/config\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -169,17 +136,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/connections.js",
 		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/connections-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/freelancetool_backend\/config\/cors.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/cors.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/cors-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -322,17 +278,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/log.js",
 		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/log-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/freelancetool_backend\/config\/models.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/models.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/models-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -708,17 +653,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/controllers.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/controllers.js",
-		"outputAbbreviatedPath": "\/js\/min\/controllers-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/data.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -762,24 +696,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/partials\/details.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/details.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/partials\/list.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/list.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,
