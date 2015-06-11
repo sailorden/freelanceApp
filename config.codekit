@@ -2,104 +2,117 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
-	"\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/freelancetool_backend\/api\/policies\/sessionAuth.js": {
+	"\/backend\/api\/controllers\/ProjectController.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/policies\/sessionAuth.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/policies\/min\/sessionAuth-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/controllers\/ProjectController.js",
+		"outputAbbreviatedPath": "\/backend\/api\/controllers\/min\/ProjectController-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/api\/responses\/badRequest.js": {
+	"\/backend\/api\/models\/Project.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/badRequest.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/min\/badRequest-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/models\/Project.js",
+		"outputAbbreviatedPath": "\/backend\/api\/models\/min\/Project-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/api\/responses\/forbidden.js": {
+	"\/backend\/api\/policies\/sessionAuth.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/forbidden.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/min\/forbidden-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/policies\/sessionAuth.js",
+		"outputAbbreviatedPath": "\/backend\/api\/policies\/min\/sessionAuth-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/api\/responses\/notFound.js": {
+	"\/backend\/api\/responses\/badRequest.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/notFound.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/min\/notFound-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/responses\/badRequest.js",
+		"outputAbbreviatedPath": "\/backend\/api\/responses\/min\/badRequest-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/api\/responses\/ok.js": {
+	"\/backend\/api\/responses\/forbidden.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/ok.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/min\/ok-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/responses\/forbidden.js",
+		"outputAbbreviatedPath": "\/backend\/api\/responses\/min\/forbidden-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/api\/responses\/serverError.js": {
+	"\/backend\/api\/responses\/notFound.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/serverError.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/api\/responses\/min\/serverError-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/responses\/notFound.js",
+		"outputAbbreviatedPath": "\/backend\/api\/responses\/min\/notFound-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/app.js": {
+	"\/backend\/api\/responses\/ok.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/app.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/min\/app-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/responses\/ok.js",
+		"outputAbbreviatedPath": "\/backend\/api\/responses\/min\/ok-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/assets\/js\/dependencies\/sails.io.js": {
+	"\/backend\/api\/responses\/serverError.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/assets\/js\/dependencies\/sails.io.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/assets\/js\/dependencies\/min\/sails.io-min.js",
+		"inputAbbreviatedPath": "\/backend\/api\/responses\/serverError.js",
+		"outputAbbreviatedPath": "\/backend\/api\/responses\/min\/serverError-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/assets\/styles\/importer.less": {
+	"\/backend\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/backend\/app.js",
+		"outputAbbreviatedPath": "\/backend\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/backend\/assets\/js\/dependencies\/sails.io.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/backend\/assets\/js\/dependencies\/sails.io.js",
+		"outputAbbreviatedPath": "\/backend\/assets\/js\/dependencies\/min\/sails.io-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/backend\/assets\/styles\/importer.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -107,8 +120,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/assets\/styles\/importer.less",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/assets\/css\/importer.css",
+		"inputAbbreviatedPath": "\/backend\/assets\/styles\/importer.less",
+		"outputAbbreviatedPath": "\/backend\/assets\/css\/importer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -119,95 +132,117 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/freelancetool_backend\/config\/bootstrap.js": {
+	"\/backend\/config\/blueprints.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/bootstrap.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/bootstrap-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/blueprints.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/blueprints-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/connections.js": {
+	"\/backend\/config\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/connections.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/connections-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/bootstrap.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/bootstrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/csrf.js": {
+	"\/backend\/config\/connections.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/csrf.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/csrf-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/connections.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/connections-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/env\/development.js": {
+	"\/backend\/config\/cors.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/env\/development.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/env\/min\/development-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/cors.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/cors-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/env\/production.js": {
+	"\/backend\/config\/csrf.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/env\/production.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/env\/min\/production-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/csrf.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/csrf-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/globals.js": {
+	"\/backend\/config\/env\/development.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/globals.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/globals-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/env\/development.js",
+		"outputAbbreviatedPath": "\/backend\/config\/env\/min\/development-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/http.js": {
+	"\/backend\/config\/env\/production.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/http.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/http-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/env\/production.js",
+		"outputAbbreviatedPath": "\/backend\/config\/env\/min\/production-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/i18n.js": {
+	"\/backend\/config\/globals.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/i18n.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/i18n-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/globals.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/globals-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/locales\/_README.md": {
+	"\/backend\/config\/http.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/backend\/config\/http.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/http-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/backend\/config\/i18n.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/backend\/config\/i18n.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/i18n-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/backend\/config\/locales\/_README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -216,9 +251,9 @@
 		"fileType": 4096,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/_README.md",
+		"inputAbbreviatedPath": "\/backend\/config\/locales\/_README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/_README.html",
+		"outputAbbreviatedPath": "\/backend\/config\/locales\/_README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -228,139 +263,150 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/freelancetool_backend\/config\/locales\/de.json": {
+	"\/backend\/config\/locales\/de.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/de.json",
+		"inputAbbreviatedPath": "\/backend\/config\/locales\/de.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/de-min.json",
+		"outputAbbreviatedPath": "\/backend\/config\/locales\/de-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/freelancetool_backend\/config\/locales\/en.json": {
+	"\/backend\/config\/locales\/en.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/en.json",
+		"inputAbbreviatedPath": "\/backend\/config\/locales\/en.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/en-min.json",
+		"outputAbbreviatedPath": "\/backend\/config\/locales\/en-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/freelancetool_backend\/config\/locales\/es.json": {
+	"\/backend\/config\/locales\/es.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/es.json",
+		"inputAbbreviatedPath": "\/backend\/config\/locales\/es.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/es-min.json",
+		"outputAbbreviatedPath": "\/backend\/config\/locales\/es-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/freelancetool_backend\/config\/locales\/fr.json": {
+	"\/backend\/config\/locales\/fr.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/fr.json",
+		"inputAbbreviatedPath": "\/backend\/config\/locales\/fr.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/locales\/fr-min.json",
+		"outputAbbreviatedPath": "\/backend\/config\/locales\/fr-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/freelancetool_backend\/config\/log.js": {
+	"\/backend\/config\/log.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/log.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/log-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/log.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/log-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/policies.js": {
+	"\/backend\/config\/models.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/policies.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/policies-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/models.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/models-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/routes.js": {
+	"\/backend\/config\/policies.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/routes.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/routes-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/policies.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/policies-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/session.js": {
+	"\/backend\/config\/routes.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/session.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/session-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/routes.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/routes-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/sockets.js": {
+	"\/backend\/config\/session.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/sockets.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/sockets-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/session.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/session-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/config\/views.js": {
+	"\/backend\/config\/sockets.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/config\/views.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/config\/min\/views-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/sockets.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/sockets-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/Gruntfile.js": {
+	"\/backend\/config\/views.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/min\/Gruntfile-min.js",
+		"inputAbbreviatedPath": "\/backend\/config\/views.js",
+		"outputAbbreviatedPath": "\/backend\/config\/min\/views-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/package.json": {
+	"\/backend\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/backend\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/backend\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/backend\/package.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/package.json",
+		"inputAbbreviatedPath": "\/backend\/package.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/package-min.json",
+		"outputAbbreviatedPath": "\/backend\/package-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/freelancetool_backend\/README.md": {
+	"\/backend\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -369,9 +415,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/README.md",
+		"inputAbbreviatedPath": "\/backend\/README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/README.html",
+		"outputAbbreviatedPath": "\/backend\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -381,139 +427,139 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/freelancetool_backend\/tasks\/config\/clean.js": {
+	"\/backend\/tasks\/config\/clean.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/clean.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/clean-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/clean.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/clean-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/coffee.js": {
+	"\/backend\/tasks\/config\/coffee.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/coffee.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/coffee-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/coffee.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/coffee-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/concat.js": {
+	"\/backend\/tasks\/config\/concat.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/concat.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/concat-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/concat.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/concat-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/copy.js": {
+	"\/backend\/tasks\/config\/copy.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/copy.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/copy-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/copy.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/copy-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/cssmin.js": {
+	"\/backend\/tasks\/config\/cssmin.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/cssmin.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/cssmin-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/cssmin.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/cssmin-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/jst.js": {
+	"\/backend\/tasks\/config\/jst.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/jst.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/jst-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/jst.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/jst-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/less.js": {
+	"\/backend\/tasks\/config\/less.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/less.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/less-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/less.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/less-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/sails-linker.js": {
+	"\/backend\/tasks\/config\/sails-linker.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/sails-linker.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/sails-linker-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/sails-linker.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/sails-linker-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/sync.js": {
+	"\/backend\/tasks\/config\/sync.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/sync.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/sync-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/sync.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/sync-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/uglify.js": {
+	"\/backend\/tasks\/config\/uglify.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/uglify.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/uglify-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/uglify.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/uglify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/config\/watch.js": {
+	"\/backend\/tasks\/config\/watch.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/watch.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/config\/min\/watch-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/config\/watch.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/config\/min\/watch-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/pipeline.js": {
+	"\/backend\/tasks\/pipeline.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/pipeline.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/min\/pipeline-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/pipeline.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/min\/pipeline-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/README.md": {
+	"\/backend\/tasks\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -522,9 +568,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/README.md",
+		"inputAbbreviatedPath": "\/backend\/tasks\/README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/README.html",
+		"outputAbbreviatedPath": "\/backend\/tasks\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -534,104 +580,113 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/freelancetool_backend\/tasks\/register\/build.js": {
+	"\/backend\/tasks\/register\/build.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/build.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/build-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/build.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/build-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/buildProd.js": {
+	"\/backend\/tasks\/register\/buildProd.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/buildProd.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/buildProd-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/buildProd.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/buildProd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/compileAssets.js": {
+	"\/backend\/tasks\/register\/compileAssets.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/compileAssets.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/compileAssets-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/compileAssets.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/compileAssets-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/default.js": {
+	"\/backend\/tasks\/register\/default.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/default.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/default-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/default.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/default-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/linkAssets.js": {
+	"\/backend\/tasks\/register\/linkAssets.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/linkAssets.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/linkAssets-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/linkAssets.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/linkAssets-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/linkAssetsBuild.js": {
+	"\/backend\/tasks\/register\/linkAssetsBuild.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/linkAssetsBuild.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/linkAssetsBuild-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/linkAssetsBuild.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/linkAssetsBuild-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/linkAssetsBuildProd.js": {
+	"\/backend\/tasks\/register\/linkAssetsBuildProd.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/linkAssetsBuildProd.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/linkAssetsBuildProd-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/linkAssetsBuildProd.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/linkAssetsBuildProd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/prod.js": {
+	"\/backend\/tasks\/register\/prod.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/prod.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/prod-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/prod.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/prod-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/freelancetool_backend\/tasks\/register\/syncAssets.js": {
+	"\/backend\/tasks\/register\/syncAssets.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/syncAssets.js",
-		"outputAbbreviatedPath": "\/freelancetool_backend\/tasks\/register\/min\/syncAssets-min.js",
+		"inputAbbreviatedPath": "\/backend\/tasks\/register\/syncAssets.js",
+		"outputAbbreviatedPath": "\/backend\/tasks\/register\/min\/syncAssets-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -648,6 +703,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.js",
 		"outputAbbreviatedPath": "\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers.js",
+		"outputAbbreviatedPath": "\/js\/min\/controllers-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -696,6 +762,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/partials\/details.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/details.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/list.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,
@@ -864,7 +948,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Matthias Harreither",
+"lastSavedByUser": "Werner Gundacker",
 "manualImportLinks": {
 	},
 "projectAttributes": {

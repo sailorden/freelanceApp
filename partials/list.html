@@ -16,13 +16,11 @@
   </div>
 
 
-  <ul style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
+  <ul class="projects" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
       <a href="#/projects/{{item.id}}">
-        <div class="info">
-          <span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span>
-          <div style="clear:both;"></div>
-        </div>
+        <span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span>
+        <div style="clear:both;"></div>
       </a>
     </li>
   </ul>

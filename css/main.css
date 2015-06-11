@@ -13,8 +13,7 @@ input[type="text"] {
   height: 40px;
   text-align: left;
   border: 1px solid #000;
-  padding-left: 20px;
-  margin-left: 40px;
+  padding-left: 15px;
   text-shadow: none !important;
   box-shadow: none !important; }
 
@@ -23,22 +22,29 @@ input[type="text"]:focus {
   border: none; }
 
 /* Textfield */
-/* Button für Projekte */
-.btn_project {
-  border-radius: 8px;
+/* Projektliste */
+.projects {
   width: 700px;
-  text-shadow: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  opacity: 0.8;
-  margin: 5px;
-  font-family: 'SinkinSans-700Bold';
-  background-color: #bccceb;
-  color: #5f688c;
-  font-size: 24px;
-  height: 70px; }
-  .btn_project:hover {
-    opacity: 1; }
+  margin: 0px auto;
+  padding: 0px; }
+  .projects li a[href] {
+    border-radius: 8px;
+    width: 700px;
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-family: 'SinkinSans-700Bold';
+    box-sizing: border-box;
+    background-color: #bccceb;
+    color: #5f688c;
+    font-size: 24px;
+    height: 70px;
+    display: block;
+    line-height: 70px; }
+    .projects li a[href]:hover {
+      opacity: 1; }
 
 .btn_in {
   border-radius: 8px;
@@ -47,8 +53,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: #A1C9A1;
   color: #417505;
   font-size: 18px;
@@ -63,8 +70,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: #FFCCC4;
   color: #EA523B;
   font-size: 18px;
@@ -79,8 +87,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: transparent;
   color: #417505;
   font-size: 35px;
@@ -95,8 +104,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: transparent;
   color: #EA523B;
   font-size: 35px;
@@ -112,8 +122,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: transparent;
   color: #417505;
   font-size: 18px;
@@ -133,8 +144,9 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px;
+  margin: 5px 0;
   font-family: 'SinkinSans-700Bold';
+  box-sizing: border-box;
   background-color: transparent;
   color: #EA523B;
   font-size: 18px;
