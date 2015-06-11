@@ -28,12 +28,15 @@ Freelance App
 - "Back" Button new
 - date 11.05.15
 
-##Sails Backend
+##Sails Backend (Werner Gundacker, Matthias Harreither)
 
 - Connection REST API with Angular
 - date 11.05.15
 
+##Update Frontend and Backend (Werner Gundacker)
 
+- Labels for Accountings
+- date 11.05.15
 
 
 Installation Manual Sails Backend
