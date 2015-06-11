@@ -28,7 +28,20 @@ Freelance App
 - "Back" Button new
 - date 11.05.15
 
-##Backend
+##Sails Backend
 
-- Backend with Angular
+- Connection REST API with Angular
 - date 11.05.15
+
+
+
+
+Installation Manual Sails Backend
+==================================
+
+- Open Terminal
+- Change directory to backend
+- run $ npm install 
+- start MongoDB: $ mongod --config /usr/local/etc/mongod.conf
+- open new Terminal Tab and start the API: $ node app.js
+
