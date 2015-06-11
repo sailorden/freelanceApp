@@ -1,0 +1,1 @@
+module.exports={attributes:{label:{type:"string",required:!0},type:{type:""},value:{type:"float",required:!0}}};

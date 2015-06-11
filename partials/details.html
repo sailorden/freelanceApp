@@ -2,25 +2,49 @@
 
   <div class="project cf" ng-model="projects">
     <h1>{{projects.name}}</h1>
+
+    <h2 class="titel_in">IN</h2>
     <form class="addEinnahmen" ng-submit="addEinnahme()">
-        <h2 class="titel_in">IN</h2>
-        <input type="text" ng-model="amountNewEinnahme" placeholder="Summe der Einnahme eingeben..." class="focus"></br>
+        <input type="text" ng-model="labelNewEinnahme" placeholder="Bezeichnung" class="focus">
+        <input type="text" ng-model="amountNewEinnahme" placeholder="Wert" class="focus"></br>
         <button type="submit">+</button>
     </form>
+    <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
+      <li ng-repeat="item in projects.accountings | filter:{type:'INCOME'}">
+          <span class="left">{{item.label}} </span><span class="right">{{item.value}} €</span>
+          <div style="clear:both;"></div>
+      </li>
+      <li>
+          <span class="left">Gesamt: </span><span class="right">{{projects.sumIncome}} €</span>
+          <div style="clear:both;"></div>
+      </li>
+    </ul>
+
+    <h2 class="titel_out">OUT</h2>
     <form class="addAusgaben" ng-submit="addAusgabe()">
-        <h2 class="titel_out">OUT</h2>
-        <input type="text" ng-model="amountNewAusgabe" placeholder="Summe der Ausgabe eingeben..." class="focus"></br>
+        <input type="text" ng-model="labelNewAusgabe" placeholder="Bezeichnung" class="focus">
+        <input type="text" ng-model="amountNewAusgabe" placeholder="Wert" class="focus"></br>
         <button type="submit">+</button>
-    </div>
+    </form>
+    <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
+      <li ng-repeat="item in projects.accountings | filter:{type:'EXPENSE'}">
+          <span class="left">{{item.label}} </span><span class="right">- {{item.value}} €</span>
+          <div style="clear:both;"></div>
+      </li>
+      <li>
+          <span class="left">Gesamt: </span><span class="right">{{projects.sumExpense}} €</span>
+          <div style="clear:both;"></div>
+      </li>
+    </ul>
     <br>
     <div class="info">
-      <div class="btn_in"><span class="left">Einnahmen:</span><span class="right">{{projects.einnahmen}} €</span></div>
-      <div class ="btn_out"><span class="left">Ausgaben:</span><span class="right">{{projects.ausgaben}} €</span></div>
+      <!-- <div class="btn_in"><span class="left">Einnahmen:</span><span class="right">{{projects.einnahmen}} €</span></div>
+      <div class ="btn_out"><span class="left">Ausgaben:</span><span class="right">{{projects.ausgaben}} €</span></div> -->
 
 <!--       <div>neue Einnahme: {{amountNewEinnahme}} €</div>
  -->
     </div>
-    <h3>€ {{projects.einnahmen - projects.ausgaben}}</h3>
+    <h3>€ {{projects.sumAccounting}}</h3>
   </div>
   <a href="index.html"><img src="images/back.svg"></a>
 </section>

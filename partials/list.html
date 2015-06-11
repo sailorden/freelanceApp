@@ -19,7 +19,7 @@
   <ul class="projects" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
       <a href="#/projects/{{item.id}}">
-        <span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span>
+        <span class="left">{{item.name}} </span><span class="right">€ {{item.sumAccounting}}</span>
         <div style="clear:both;"></div>
       </a>
     </li>
