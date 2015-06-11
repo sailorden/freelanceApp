@@ -1,26 +1,26 @@
 <section class="projectinfo">
 
   <div class="project cf" ng-model="projects">
-    <h1>{{projects[whichItem].name}}</h1>
+    <h1>{{projects.name}}</h1>
     <form class="addEinnahmen" ng-submit="addEinnahme()">
-        <button class="titel_in">IN</button>
+        <h2 class="titel_in">IN</h2>
         <input type="text" ng-model="amountNewEinnahme" placeholder="Summe der Einnahme eingeben..." class="focus"></br>
-        <img src="images/inAdd.svg" alt="Project_Add"type="submit">
+        <button type="submit">+</button>
     </form>
-    <div class="addAusgaben">
-        <button class="titel_out">OUT</button>
-        <input type="text"ng-model="amountNewAusgabe" placeholder="Summe der Ausgabe eingeben..." class="focus"></br>
-        <img src="images/outAdd.svg" alt="Project_Out"type="submit">
+    <form class="addAusgaben" ng-submit="addAusgabe()">
+        <h2 class="titel_out">OUT</h2>
+        <input type="text" ng-model="amountNewAusgabe" placeholder="Summe der Ausgabe eingeben..." class="focus"></br>
+        <button type="submit">+</button>
     </div>
     <br>
     <div class="info">
-      <button class="btn_in"><span class="left">Einnahmen:</span><span class="right">{{projects[whichItem].einnahmen}} €</span></button>
-      <button class ="btn_out"><span class="left">Ausgaben:</span><span class="right">{{projects[whichItem].ausgaben}} €</span></button>
+      <div class="btn_in"><span class="left">Einnahmen:</span><span class="right">{{projects.einnahmen}} €</span></div>
+      <div class ="btn_out"><span class="left">Ausgaben:</span><span class="right">{{projects.ausgaben}} €</span></div>
 
 <!--       <div>neue Einnahme: {{amountNewEinnahme}} €</div>
  -->
     </div>
-    <h2>€ {{item.einnahmen - item.ausgaben}}</h2>
+    <h2>€ {{projects.einnahmen - projects.ausgaben}}</h2>
   </div>
   <a href="index.html"><img src="images/back.svg"></a>
 </section>

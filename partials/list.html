@@ -9,16 +9,19 @@
 
   <div class="addProject">
     <!-- <h1><label>add Project: </label></h1> -->
-    <input type="text" ng-model="newProject" placeholder="add project" class="focus"></br>
-    <img src="images/projectAdd.svg" alt="Project_Add" ng-click="addProject()">
+    <form ng-submit="addProject()">
+      <input type="text" ng-model="newProject" placeholder="add project" class="focus"></br>
+      <button type="submit">+</button>
+    </form>
   </div>
 
 
   <ul style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
     <li ng-repeat="item in projects | filter: query">
-      <a href="#/projects/{{projects.indexOf(item)}}">
+      <a href="#/projects/{{item.id}}">
         <div class="info">
-          <button class="btn_project"><span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span></h2>
+          <span class="left">{{item.name}} </span><span class="right">€ {{item.einnahmen - item.ausgaben}}</span>
+          <div style="clear:both;"></div>
         </div>
       </a>
     </li>

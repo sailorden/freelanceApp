@@ -8,14 +8,15 @@
 module.exports = {
 
   attributes: {
-      title: {
-          type: "STRING"
+      name: {
+          type: "string",
+          required: true
       },
-      income: {
-          type: "INTEGER"
+      einnahmen: {
+          type: "float"
       },
-      expenditure: {
-          type: "INTEGER"
+      ausgaben: {
+          type: "float"
       }
   }
 };
