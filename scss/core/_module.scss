@@ -9,7 +9,8 @@ input[type="text"] {
   height: $height_btn_in_out;
   text-align: left;
   border: 1px solid $black;
-  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 40px;
   text-shadow:none !important;
   box-shadow:none !important;
 }
@@ -102,8 +103,12 @@ input[type="text"]:focus {
 
 img{
   opacity: 0.8;
+  margin-top: 25px;
+  margin-bottom: 15px;
   &:hover{
     opacity: 1;
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 }
 

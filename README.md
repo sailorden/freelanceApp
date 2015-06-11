@@ -21,3 +21,9 @@ Freelance App
 
 - Input fields styled
 - "Back" Button new
+
+##SCSS with Codekit into CSS (Matthias Harreither)
+
+- Input fields styled
+- "Back" Button new
+- date 11.05.15
