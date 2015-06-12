@@ -3,8 +3,6 @@ html {
   text-align: center; }
 
 /* Textfield */
-<<<<<<< Updated upstream
-=======
 input[type="text"] {
   border-radius: 8px;
   width: 680px;
@@ -24,28 +22,19 @@ input[type="text"]:focus {
   border: none; }
 
 /* Textfield */
->>>>>>> Stashed changes
 /* Projektliste */
 .projects {
   width: 700px;
   margin: 0px auto;
   padding: 0px; }
   .projects li a[href] {
-    border-radius: 50%;
-    text-shadow: none !important;
-    border: none !important;
-    box-shadow: none !important;
+    border-radius: 15px;
     opacity: 0.8;
-    margin: 5px 0;
-    font-family: 'Courier New';
-    font-weight: bold;
-    /*box-sizing: border-box;*/
-    background-color: #bccceb;
-    color: #5f688c;
-    font-size: 60px;
-    height: 70px;
-    width: 70px;
     display: block;
+    height: 70px;
+    font-size: 60px;
+    color: #5f688c;
+    background-color: #bccceb;
     line-height: 70px; }
     .projects li a[href]:hover {
       opacity: 1; }

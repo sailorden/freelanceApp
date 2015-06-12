@@ -49,9 +49,17 @@ input[type="text"]:focus {
   padding: 0px;
   
   li a[href]{
-    @include button_style($color_btn_project, $color_btn_project_text, $fontsize_btn_project, $height_btn_project);
+    border-radius: 15px;
+    opacity: 0.8;
     display: block;
+    height: $height_btn_project;
+    font-size: $fontsize_btn_project;
+    color: $color_btn_project_text;
+    background-color: $color_btn_project;
     line-height: $height_btn_project;
+    &:hover{
+      opacity: 1;
+    }
   }
 }
 
