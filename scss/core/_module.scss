@@ -51,13 +51,14 @@ input[type="text"]:focus {
   li a[href]{
     border-radius: 15px;
     margin: 5px 0;
-    font-size: 25px;
+    font-size: $fontsize_li_project;
     opacity: 0.8;
     display: block;
-    height: $height_btn_project;
+    height: $height_li_project;
     color: $color_btn_project_text;
     background-color: $color_btn_project;
-    line-height: $height_btn_project;
+    line-height: $height_li_project;
+    cursor: pointer;
     &:hover{
       opacity: 1;
     }

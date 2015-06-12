@@ -30,13 +30,14 @@ input[type="text"]:focus {
   .projects li a[href] {
     border-radius: 15px;
     margin: 5px 0;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 0.8;
     display: block;
-    height: 70px;
+    height: 50px;
     color: #5f688c;
     background-color: #bccceb;
-    line-height: 70px; }
+    line-height: 50px;
+    cursor: pointer; }
     .projects li a[href]:hover {
       opacity: 1; }
 
@@ -52,9 +53,9 @@ input[type="text"]:focus {
   /*box-sizing: border-box;*/
   background-color: #bccceb;
   color: #5f688c;
-  font-size: 60px;
-  height: 70px;
-  width: 70px; }
+  font-size: 35px;
+  height: 40px;
+  width: 40px; }
   .btn_project:hover {
     opacity: 1; }
 
@@ -107,8 +108,8 @@ input[type="text"]:focus {
   background-color: transparent;
   color: #417505;
   font-size: 35px;
-  height: 70px;
-  width: 70px; }
+  height: 40px;
+  width: 40px; }
   .titel_in:hover {
     opacity: 1; }
 
@@ -125,8 +126,8 @@ input[type="text"]:focus {
   background-color: transparent;
   color: #EA523B;
   font-size: 35px;
-  height: 70px;
-  width: 70px; }
+  height: 40px;
+  width: 40px; }
   .titel_out:hover {
     opacity: 1; }
 
