@@ -173,8 +173,12 @@ h2{
 .input_project{
   @include  input_style($color_btn_project_text, $color_btn_project);
 }
+
 .input_search{
-  @include  input_style($color_btn_project_text, $color_btn_project);
+  @include  input_style($black, $white);
+  &:focus{
+    border: 3px solid $black;
+  }
 }
 
 .input_in{
