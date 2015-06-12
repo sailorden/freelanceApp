@@ -16,7 +16,8 @@
   font-size: $fontsize;
   height: $btnheight;
   width: $btnheight;
-
+  margin-bottom: 25px;
+ 
   &:hover{
     opacity: 1;
   }
