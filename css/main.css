@@ -28,107 +28,131 @@ input[type="text"]:focus {
   margin: 0px auto;
   padding: 0px; }
   .projects li a[href] {
-    border-radius: 8px;
-    width: 700px;
+    border-radius: 50%;
     text-shadow: none !important;
     border: none !important;
     box-shadow: none !important;
     opacity: 0.8;
     margin: 5px 0;
-    font-family: 'SinkinSans-700Bold';
-    box-sizing: border-box;
+    font-family: 'Courier New';
+    font-weight: bold;
+    /*box-sizing: border-box;*/
     background-color: #bccceb;
     color: #5f688c;
-    font-size: 24px;
+    font-size: 60px;
     height: 70px;
+    width: 70px;
     display: block;
     line-height: 70px; }
     .projects li a[href]:hover {
       opacity: 1; }
 
-.btn_in {
-  border-radius: 8px;
-  width: 700px;
+.btn_project {
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
+  background-color: #bccceb;
+  color: #5f688c;
+  font-size: 60px;
+  height: 70px;
+  width: 70px; }
+  .btn_project:hover {
+    opacity: 1; }
+
+.btn_in {
+  border-radius: 50%;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 5px 0;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: #A1C9A1;
   color: #417505;
-  font-size: 18px;
-  height: 40px; }
+  font-size: 35px;
+  height: 40px;
+  width: 40px; }
   .btn_in:hover {
     opacity: 1; }
 
 .btn_out {
-  border-radius: 8px;
-  width: 700px;
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: #FFCCC4;
   color: #EA523B;
-  font-size: 18px;
-  height: 40px; }
+  font-size: 35px;
+  height: 40px;
+  width: 40px; }
   .btn_out:hover {
     opacity: 1; }
 
 .titel_in {
-  border-radius: 8px;
-  width: 700px;
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: transparent;
   color: #417505;
   font-size: 35px;
-  height: 70px; }
+  height: 70px;
+  width: 70px; }
   .titel_in:hover {
     opacity: 1; }
 
 .titel_out {
-  border-radius: 8px;
-  width: 700px;
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: transparent;
   color: #EA523B;
   font-size: 35px;
-  height: 70px; }
+  height: 70px;
+  width: 70px; }
   .titel_out:hover {
     opacity: 1; }
 
 /* Summe (wird nicht mehr benötigt) */
 .sum_in {
-  border-radius: 8px;
-  width: 700px;
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: transparent;
   color: #417505;
-  font-size: 18px;
+  font-size: 35px;
   height: 40px;
+  width: 40px;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -138,19 +162,20 @@ input[type="text"]:focus {
     opacity: 0.8; }
 
 .sum_out {
-  border-radius: 8px;
-  width: 700px;
+  border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
   margin: 5px 0;
-  font-family: 'SinkinSans-700Bold';
-  box-sizing: border-box;
+  font-family: 'Courier New';
+  font-weight: bold;
+  /*box-sizing: border-box;*/
   background-color: transparent;
   color: #EA523B;
-  font-size: 18px;
+  font-size: 35px;
   height: 40px;
+  width: 40px;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -191,6 +216,57 @@ h1 {
 h2 {
   font-family: 'SinkinSans-400Regular';
   font-size: 50px; }
+
+.input_project {
+  border-radius: 8px;
+  width: 680px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #5f688c;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #5f688c; }
+  .input_project:focus {
+    background-color: #bccceb; }
+
+.input_in {
+  border-radius: 8px;
+  width: 680px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #417505;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #417505; }
+  .input_in:focus {
+    background-color: #A1C9A1; }
+
+.input_out {
+  border-radius: 8px;
+  width: 680px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #EA523B;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #EA523B; }
+  .input_out:focus {
+    background-color: #FFCCC4; }
 
 @font-face {
   font-family: 'SinkinSans-500Medium';
