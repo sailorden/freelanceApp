@@ -7,7 +7,7 @@
     <form class="addEinnahmen" ng-submit="addEinnahme()">
         <input type="text" ng-model="labelNewEinnahme" placeholder="Bezeichnung" class="focus">
         <input type="text" ng-model="amountNewEinnahme" placeholder="Wert" class="focus">
-        <button type="submit">+</button>
+        <button type="submit" class="btn_in">+</button>
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
       <li ng-repeat="item in projects.accountings | filter:{type:'INCOME'}">
@@ -24,7 +24,7 @@
     <form class="addAusgaben" ng-submit="addAusgabe()">
         <input type="text" ng-model="labelNewAusgabe" placeholder="Bezeichnung" class="focus">
         <input type="text" ng-model="amountNewAusgabe" placeholder="Wert" class="focus">
-        <button type="submit">+</button>
+        <button type="submit" class="btn_out">+</button>
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
       <li ng-repeat="item in projects.accountings | filter:{type:'EXPENSE'}">
