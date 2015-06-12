@@ -77,24 +77,8 @@
     opacity: 0.8;
   }
 }
-/* Summe (wird nicht mehr benötigt) */
-@mixin text_style($fontfamily, $floatdirection){
 
 
-  font-family: $fontfamily;
-  float: $floatdirection;
- padding-left: 20px;
-  padding-right: 20px;
-  display: block;
-}
-
-.left{
-  @include text_style($fontfamily_left, $float_left);
-}
-
-.right{
-  @include text_style($fontfamily_right, $float_right);
-}
 
 img{
   opacity: 0.8;
@@ -176,4 +160,26 @@ h2{
   font-family: 'SinkinSans-500Medium';
   font-size: 35px;
   margin-top: 60px;
+}
+
+h3{
+  font-family: 'SinkinSans-600SemiBold';
+  font-size: 40px;
+}
+
+@mixin text_style($fontfamily){
+  font-family: $fontfamily;
+  //float: $floatdirection;
+  /*padding-left: 200px;
+  padding-right: 200px;*/
+  //display: block;
+font-size: 20px;
+}
+
+.left{
+  @include text_style($fontfamily_left);
+}
+
+.right{
+  @include text_style($fontfamily_right);
 }
