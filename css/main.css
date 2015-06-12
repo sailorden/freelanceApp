@@ -29,10 +29,11 @@ input[type="text"]:focus {
   padding: 0px; }
   .projects li a[href] {
     border-radius: 15px;
+    margin: 5px 0;
+    font-size: 25px;
     opacity: 0.8;
     display: block;
     height: 70px;
-    font-size: 60px;
     color: #5f688c;
     background-color: #bccceb;
     line-height: 70px; }

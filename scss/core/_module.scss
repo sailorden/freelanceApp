@@ -50,10 +50,11 @@ input[type="text"]:focus {
   
   li a[href]{
     border-radius: 15px;
+    margin: 5px 0;
+    font-size: 25px;
     opacity: 0.8;
     display: block;
     height: $height_btn_project;
-    font-size: $fontsize_btn_project;
     color: $color_btn_project_text;
     background-color: $color_btn_project;
     line-height: $height_btn_project;
