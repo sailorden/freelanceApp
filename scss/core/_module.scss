@@ -92,12 +92,6 @@ img{
   }
 }
 
-h1{
-  font-family: 'SinkinSans-500Medium';
-  font-size: 30px;
-  letter-spacing: 12.5px;
-}
-
 
 /*Textfields*/
 @mixin input_style($input_text_color, $input_background_color){
@@ -155,6 +149,7 @@ h1{
   font-family: 'SinkinSans-500Medium';
   font-size: 30px;
   letter-spacing: 12.5px;
+    padding-top: 50px;
 }
 
 h2{
