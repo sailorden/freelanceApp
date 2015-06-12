@@ -55,6 +55,11 @@ input[type="text"]:focus {
   }
 }
 
+.btn_project{
+  @include button_style($color_btn_project, $color_btn_project_text, $fontsize_btn_project, $height_btn_project);
+
+}
+
 .btn_in{
   @include button_style($color_btn_in, $color_btn_in_text, $fontsize_btn_in_out, $height_btn_in_out);
 }
