@@ -1,23 +1,24 @@
 <section class="projectpage">
   <!-- Header-Bild -->
-  <img src="images/logo.svg" alt="logo">
-  <!-- Header-Bild -->
-  <div class="search">
+  <img src="images/logo.svg" alt="logo" id="logo">
+
+  <div class="box search">
     <!-- <h1><label>search: </label></h1> -->
     <input type="text" ng-model="query" placeholder="Search for projects" class="input_search">
-  </div></br>
-
-  <div class="addProject">
-    <!-- <h1><label>add Project: </label></h1> -->
-    <form ng-submit="addProject()">
-      <input type="text" ng-model="newProject" placeholder="add project" class="input_project"></br>
-      <button type="submit" class="btn_project">+</button>
-    </form> 
   </div>
 
+  <div class="box addProject">
+    <!-- <h1><label>add Project: </label></h1> -->
+    <form ng-submit="addProject()">
+      <input type="text" ng-model="newProject" placeholder="add project" class="input_project">
+      <button type="submit" class="btn_project">+</button>
+      <div style="clear:both;"></div>
+    </form> 
+  </div></br>
 
-  <ul class="projects" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
-    <li ng-repeat="item in projects | filter: query">
+
+  <ul class="projects">
+    <li class="li_project" ng-repeat="item in projects | filter: query">
       <a href="#/projects/{{item.id}}">
         <span class="left">{{item.name}} </span><span class="right">€ {{item.sumAccounting}}</span>
         <div style="clear:both;"></div>

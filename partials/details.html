@@ -4,35 +4,37 @@
     <h1>{{projects.name}}</h1>
 
     <h2 class="titel_in">IN</h2>
-    <form class="addEinnahmen" ng-submit="addEinnahme()">
-        <input type="text" ng-model="labelNewEinnahme" placeholder="Bezeichnung" class="input_in">
-        <input type="text" ng-model="amountNewEinnahme" placeholder="Wert" class="input_in"></br>
+    <form class="box addEinnahmen" ng-submit="addEinnahme()">
+        <input type="text" ng-model="labelNewEinnahme" placeholder="Label" class="input_in label">
+        <input type="text" ng-model="amountNewEinnahme" placeholder="Value" class="input_in value">
         <button type="submit" class="btn_in">+</button>
+        <div style="clear:both;"></div>
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
-      <li ng-repeat="item in projects.accountings | filter:{type:'INCOME'}">
+      <li class="li_accounting in" ng-repeat="item in projects.accountings | filter:{type:'INCOME'}">
           <span class="left">{{item.label}} </span><span class="right">{{item.value}} €</span>
           <div style="clear:both;"></div>
       </li>
-      <li>
-          <span class="left">Gesamt: </span><span class="right">{{projects.sumIncome}} €</span>
+      <li class="li_total">
+          <span class="left">Total: </span><span class="right">{{projects.sumIncome}} €</span>
           <div style="clear:both;"></div>
       </li>
     </ul>
 
     <h2 class="titel_out">OUT</h2>
-    <form class="addAusgaben" ng-submit="addAusgabe()">
-        <input type="text" ng-model="labelNewAusgabe" placeholder="Bezeichnung" class="input_out">
-        <input type="text" ng-model="amountNewAusgabe" placeholder="Wert" class="input_out"></br>
+    <form class="box addAusgaben" ng-submit="addAusgabe()">
+        <input type="text" ng-model="labelNewAusgabe" placeholder="Label" class="input_out label">
+        <input type="text" ng-model="amountNewAusgabe" placeholder="Value" class="input_out value">
         <button type="submit" class="btn_out">+</button>
+        <div style="clear:both;"></div>
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
-      <li ng-repeat="item in projects.accountings | filter:{type:'EXPENSE'}">
-          <span class="left">{{item.label}} </span><span class="right">- {{item.value}} €</span>
+      <li class="li_accounting out" ng-repeat="item in projects.accountings | filter:{type:'EXPENSE'}">
+          <span class="left">{{item.label}} </span><span class="right">{{item.value}} €</span>
           <div style="clear:both;"></div>
       </li>
-      <li>
-          <span class="left">Gesamt: </span><span class="right">{{projects.sumExpense}} €</span>
+      <li class="li_total">
+          <span class="left">Total: </span><span class="right">- {{projects.sumExpense}} €</span>
           <div style="clear:both;"></div>
       </li>
     </ul>

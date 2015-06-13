@@ -2,44 +2,105 @@
 html {
   text-align: center; }
 
-/* Textfield */
-input[type="text"] {
+section {
+  width: 700px;
+  margin: 0px auto; }
+
+.box {
+  width: 100%;
+  padding-bottom: 15px; }
+
+#logo {
+  margin-top: 25px;
+  margin-bottom: 15px; }
+
+/*Textfields*/
+.input_project {
   border-radius: 8px;
-  width: 680px;
   font-family: "SinkinSans-500Medium";
   font-size: 18px;
   appearance: none;
   box-shadow: none;
-  height: 30px;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #5f688c;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #5f688c;
+  outline: none;
+  box-sizing: border-box;
+  width: 650px;
+  float: left; }
+  .input_project:focus {
+    background-color: #bccceb; }
+
+.input_search {
+  border-radius: 8px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
   text-align: left;
   border: 1px solid #000;
-  padding-left: 15px;
+  padding-left: 20px;
   text-shadow: none !important;
-  box-shadow: none !important; }
-
-input[type="text"]:focus {
+  box-shadow: none !important;
+  color: #000;
   outline: none;
-  border: none; }
+  box-sizing: border-box;
+  width: 100%; }
+  .input_search:focus {
+    background-color: #fff; }
+  .input_search:focus {
+    border: 2px solid #000; }
 
-/* Textfield */
-/* Projektliste */
-.projects {
-  width: 700px;
-  margin: 0px auto;
-  padding: 0px; }
-  .projects li a[href] {
-    border-radius: 15px;
-    margin: 5px 0;
-    font-size: 20px;
-    opacity: 0.8;
-    display: block;
-    height: 50px;
-    color: #5f688c;
-    background-color: #bccceb;
-    line-height: 50px;
-    cursor: pointer; }
-    .projects li a[href]:hover {
-      opacity: 1; }
+.input_in {
+  border-radius: 8px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #417505;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #417505;
+  outline: none;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 10px; }
+  .input_in:focus {
+    background-color: #A1C9A1; }
+
+.input_out {
+  border-radius: 8px;
+  font-family: "SinkinSans-500Medium";
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #EA523B;
+  padding-left: 20px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #EA523B;
+  outline: none;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 10px; }
+  .input_out:focus {
+    background-color: #FFCCC4; }
+
+.label {
+  width: 500px; }
+
+.value {
+  width: 100px; }
 
 .btn_project {
   border-radius: 50%;
@@ -47,15 +108,16 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: #bccceb;
   color: #5f688c;
   font-size: 35px;
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  float: right; }
   .btn_project:hover {
     opacity: 1; }
 
@@ -65,15 +127,15 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: #A1C9A1;
   color: #417505;
   font-size: 35px;
-  height: 30px;
-  width: 30px; }
+  height: 40px;
+  width: 40px; }
   .btn_in:hover {
     opacity: 1; }
 
@@ -83,52 +145,104 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: #FFCCC4;
   color: #EA523B;
   font-size: 35px;
-  height: 30px;
-  width: 30px; }
+  height: 40px;
+  width: 40px; }
   .btn_out:hover {
     opacity: 1; }
 
-.titel_in {
+.btn_back {
   border-radius: 50%;
   text-shadow: none !important;
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
-  background-color: transparent;
-  color: #417505;
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
+  background-color: #000;
+  color: #fff;
   font-size: 35px;
   height: 40px;
   width: 40px; }
-  .titel_in:hover {
+  .btn_back:hover {
     opacity: 1; }
 
-.titel_out {
-  border-radius: 50%;
-  text-shadow: none !important;
-  border: none !important;
-  box-shadow: none !important;
+/* Listenelemente */
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.li_project a[href] {
+  border-radius: 8px;
+  margin: 10px 0 5px;
+  font-size: 20px;
   opacity: 0.8;
-  margin: 5px 0;
-  font-family: 'Courier New';
-  font-weight: bold;
-  /*box-sizing: border-box;*/
-  background-color: transparent;
+  display: block;
+  height: 50px;
+  color: #5f688c;
+  background-color: #bccceb;
+  line-height: 50px;
+  cursor: pointer;
+  padding-top: 2px;
+  box-sizing: border-box; }
+  .li_project a[href]:hover {
+    opacity: 1; }
+
+.li_accounting.in {
+  border-radius: 8px;
+  margin: 10px 0 5px;
+  font-size: 16px;
+  opacity: 0.8;
+  display: block;
+  height: 30px;
+  color: #417505;
+  background-color: #A1C9A1;
+  line-height: 30px;
+  cursor: pointer;
+  padding-top: 2px;
+  box-sizing: border-box; }
+  .li_accounting.in:hover {
+    opacity: 1; }
+
+.li_accounting.out {
+  border-radius: 8px;
+  margin: 10px 0 5px;
+  font-size: 16px;
+  opacity: 0.8;
+  display: block;
+  height: 30px;
   color: #EA523B;
-  font-size: 35px;
-  height: 40px;
-  width: 40px; }
-  .titel_out:hover {
+  background-color: #FFCCC4;
+  line-height: 30px;
+  cursor: pointer;
+  padding-top: 2px;
+  box-sizing: border-box; }
+  .li_accounting.out:hover {
+    opacity: 1; }
+
+.li_total {
+  border-radius: 8px;
+  margin: 10px 0 5px;
+  font-size: 16px;
+  opacity: 0.8;
+  display: block;
+  height: 30px;
+  color: #000;
+  background-color: #fff;
+  line-height: 30px;
+  cursor: pointer;
+  padding-top: 2px;
+  box-sizing: border-box; }
+  .li_total:hover {
     opacity: 1; }
 
 /* Summe (wird nicht mehr benötigt) */
@@ -138,15 +252,15 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: transparent;
   color: #417505;
   font-size: 35px;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -161,15 +275,15 @@ input[type="text"]:focus {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
-  margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: transparent;
   color: #EA523B;
   font-size: 35px;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -178,106 +292,39 @@ input[type="text"]:focus {
   .sum_out:hover {
     opacity: 0.8; }
 
-/* Summe (wird nicht mehr benötigt) */
+.titel_in {
+  color: #417505; }
+
+.titel_out {
+  color: #EA523B; }
+
+h1 {
+  font-family: 'SinkinSans-500Medium';
+  font-size: 40px;
+  letter-spacing: 8.5px;
+  padding-top: 25px;
+  margin: 5px 0; }
+
+h2 {
+  font-family: 'SinkinSans-500Medium';
+  font-size: 35px;
+  margin-top: 60px; }
+
+h3 {
+  font-family: 'SinkinSans-600SemiBold';
+  font-size: 40px; }
+
 .left {
   font-family: "SinkinSans-500Medium";
   float: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: block; }
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .right {
   font-family: "SinkinSans-100Thin";
   float: right;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: block; }
-
-img {
-  opacity: 0.8;
-  margin-top: 25px;
-  margin-bottom: 15px; }
-  img:hover {
-    opacity: 1;
-    margin-top: 25px;
-    margin-bottom: 15px; }
-
-h1 {
-  font-family: 'SinkinSans-500Medium';
-  font-size: 30px;
-  letter-spacing: 12.5px; }
-
-h2 {
-  font-family: 'SinkinSans-400Regular';
-  font-size: 50px; }
-
-.input_project {
-  border-radius: 8px;
-  width: 680px;
-  font-family: "SinkinSans-500Medium";
-  font-size: 18px;
-  appearance: none;
-  box-shadow: none;
-  height: 30px;
-  text-align: left;
-  border: 1px solid #5f688c;
-  padding-left: 20px;
-  text-shadow: none !important;
-  box-shadow: none !important;
-  color: #5f688c; }
-  .input_project:focus {
-    background-color: #bccceb; }
-
-.input_search {
-  border-radius: 8px;
-  width: 680px;
-  font-family: "SinkinSans-500Medium";
-  font-size: 18px;
-  appearance: none;
-  box-shadow: none;
-  height: 30px;
-  text-align: left;
-  border: 1px solid #5f688c;
-  padding-left: 20px;
-  text-shadow: none !important;
-  box-shadow: none !important;
-  color: #5f688c; }
-  .input_search:focus {
-    background-color: #bccceb; }
-
-.input_in {
-  border-radius: 8px;
-  width: 680px;
-  font-family: "SinkinSans-500Medium";
-  font-size: 18px;
-  appearance: none;
-  box-shadow: none;
-  height: 30px;
-  text-align: left;
-  border: 1px solid #417505;
-  padding-left: 20px;
-  text-shadow: none !important;
-  box-shadow: none !important;
-  color: #417505; }
-  .input_in:focus {
-    background-color: #A1C9A1; }
-
-.input_out {
-  border-radius: 8px;
-  width: 680px;
-  font-family: "SinkinSans-500Medium";
-  font-size: 18px;
-  appearance: none;
-  box-shadow: none;
-  height: 30px;
-  text-align: left;
-  border: 1px solid #EA523B;
-  padding-left: 20px;
-  text-shadow: none !important;
-  box-shadow: none !important;
-  color: #EA523B; }
-  .input_out:focus {
-    background-color: #FFCCC4; }
+  padding-left: 10px;
+  padding-right: 10px; }
 
 @font-face {
   font-family: 'SinkinSans-500Medium';
@@ -294,3 +341,6 @@ h2 {
 @font-face {
   font-family: 'SinkinSans-200XLight';
   src: url("../font/SinkinSans-200XLight.otf") format("truetype"); }
+@font-face {
+  font-family: 'SinkinSans-600SemiBold';
+  src: url("../font/SinkinSans-600SemiBold.otf") format("truetype"); }

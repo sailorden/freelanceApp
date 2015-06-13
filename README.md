@@ -26,18 +26,23 @@ Freelance App
 
 - Input fields styled
 - "Back" Button new
-- date 11.05.15
+- date 11.06.15
 
 ##Sails Backend (Werner Gundacker, Matthias Harreither)
 
 - Connection REST API with Angular
-- date 11.05.15
+- date 11.06.15
 
 ##Update Frontend and Backend (Werner Gundacker)
 
 - Labels for Accountings
-- date 11.05.15
+- date 11.06.15
 
+##Update SCSS and Frontend (Werner Gundacker, Alex Baar)
+
+- Styles for new features
+- SCSS improvements
+- date 13.06.15
 
 Installation Manual Sails Backend
 ==================================

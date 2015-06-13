@@ -1,3 +1,63 @@
+#logo{
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/*Textfields*/
+@mixin input_style($input_text_color, $input_background_color){
+  border-radius: 8px;
+  font-family: $fontfamily_left;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  height: $height_btn_in_out;
+  text-align: left;
+  border: 1px solid $input_text_color;
+  padding-left: 20px;
+  text-shadow:none !important;
+  box-shadow:none !important;
+  color: $input_text_color;
+  outline: none;
+  box-sizing: border-box;
+
+  &:focus{
+    background-color: $input_background_color;
+  }
+}
+
+.input_project{
+  @include  input_style($color_btn_project_text, $color_btn_project);
+  width: 650px;
+  float: left;
+}
+
+.input_search{
+  @include  input_style($black, $white);
+  width: 100%;
+  &:focus{
+    border: 2px solid $black;
+  }
+}
+
+.input_in{
+  @include input_style($color_btn_in_text, $color_btn_in);
+  float: left;
+  margin-right: 10px;
+}
+
+.input_out{
+  @include input_style($color_btn_out_text, $color_btn_out);
+  float: left;
+  margin-right: 10px;
+}
+
+.label{
+  width: 500px
+}
+.value{
+  width: 100px;
+}
+
 
 @mixin button_style($background_color, $text_color, $fontsize, $btnheight){
   border-radius: 50%;
@@ -6,47 +66,26 @@
   border:none !important;
   box-shadow:none !important;
   opacity: 0.8;
-  margin: 5px 0;
+  //margin: 5px 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*box-sizing: border-box;*/
-  margin-top: 30px;
+  /*margin-top: 30px;
+  margin-bottom: 25px;*/
   background-color: $background-color;
   color: $text_color;
   font-size: $fontsize;
   height: $btnheight;
   width: $btnheight;
-  margin-bottom: 25px;
+  
  
   &:hover{
     opacity: 1;
   }
 }
-/* Projektliste */
-.projects{
-  width: 700px;
-  margin: 0px auto;
-  padding: 0px;
-  
-  li a[href]{
-    border-radius: 15px;
-    margin: 5px 0;
-    font-size: $fontsize_li_project;
-    opacity: 0.8;
-    display: block;
-    height: $height_li_project;
-    color: $color_btn_project_text;
-    background-color: $color_btn_project;
-    line-height: $height_li_project;
-    cursor: pointer;
-    &:hover{
-      opacity: 1;
-    }
-  }
-}
 
 .btn_project{
   @include button_style($color_btn_project, $color_btn_project_text, $fontsize_btn_project, $height_btn_project);
+  float: right;
 
 }
 
@@ -60,6 +99,51 @@
 
 .btn_back{
   @include button_style($black, $white, $fontsize_btn_project, $height_btn_project);
+}
+
+
+
+/* Listenelemente */
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+@mixin list_style($background_color, $text_color, $fontsize, $height){
+  border-radius: 8px;
+  margin: 10px 0 5px;
+  font-size: $fontsize;
+  opacity: 0.8;
+  display: block;
+  height: $height;
+  color: $text_color;
+  background-color: $background_color;
+  line-height: $height;
+  cursor: pointer;
+  padding-top: 2px;
+  box-sizing: border-box;
+    
+  &:hover{
+    opacity: 1;
+  }
+}
+
+
+.li_project a[href]{
+  @include list-style($color_btn_project, $color_btn_project_text, $fontsize_li_project, $height_li_project);
+}
+
+.li_accounting.in{
+  @include list-style($color_btn_in, $color_btn_in_text, $fontsize_li_inout, $height_li_inout);
+}
+
+.li_accounting.out{
+  @include list-style($color_btn_out, $color_btn_out_text, $fontsize_li_inout, $height_li_inout);
+}
+
+.li_total{
+  @include list-style($white, $black, $fontsize_li_inout, $height_li_inout);
 }
 
 /* Summe (wird nicht mehr benötigt) */
@@ -84,64 +168,6 @@
 }
 
 
-/*
-img{
-  opacity: 0.8;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  &:hover{
-    opacity: 1;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-}*/
-
-img{
-margin-top: 100px;
-margin-bottom: 80px;
-}
-
-/*Textfields*/
-@mixin input_style($input_text_color, $input_background_color){
-  border-radius: 8px;
-  width: 680px;
-  font-family: $fontfamily_left;
-  font-size: 18px;
-  appearance: none;
-  box-shadow: none;
-  height: $height_btn_in_out;
-  text-align: left;
-  border: 1px solid $input_text_color;
-  padding-left: 20px;
-  text-shadow:none !important;
-  box-shadow:none !important;
-  color: $input_text_color;
-  //background-color: $input_background_color;
-
-
-  &:focus{
-    background-color: $input_background_color;
-  }
-}
-
-.input_project{
-  @include  input_style($color_btn_project_text, $color_btn_project);
-}
-
-.input_search{
-  @include  input_style($black, $white);
-  &:focus{
-    border: 3px solid $black;
-  }
-}
-
-.input_in{
-  @include input_style($color_btn_in_text, $color_btn_in);
-}
-
-.input_out{
-  @include input_style($color_btn_out_text, $color_btn_out);
-}
 
 
 .titel_in{
@@ -155,9 +181,10 @@ margin-bottom: 80px;
 
 h1{
   font-family: 'SinkinSans-500Medium';
-  font-size: 30px;
-  letter-spacing: 12.5px;
-    padding-top: 50px;
+  font-size: 40px;
+  letter-spacing: 8.5px;
+  padding-top: 25px;
+  margin: 5px 0;
 }
 
 h2{
@@ -171,19 +198,17 @@ h3{
   font-size: 40px;
 }
 
-@mixin text_style($fontfamily){
+@mixin text_style($fontfamily, $floatdirection){
   font-family: $fontfamily;
-  //float: $floatdirection;
-  /*padding-left: 200px;
-  padding-right: 200px;*/
-  //display: block;
-font-size: 20px;
+  float: $floatdirection;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .left{
-  @include text_style($fontfamily_left);
+  @include text_style($fontfamily_left, left);
 }
 
 .right{
-  @include text_style($fontfamily_right);
+  @include text_style($fontfamily_right, right);
 }
