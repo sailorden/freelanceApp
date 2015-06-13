@@ -11,8 +11,8 @@ section {
   padding-bottom: 15px; }
 
 #logo {
-  margin-top: 25px;
-  margin-bottom: 15px; }
+  margin-top: 100px;
+  margin-bottom: 80px; }
 
 /*Textfields*/
 .input_project {
@@ -97,7 +97,7 @@ section {
     background-color: #FFCCC4; }
 
 .label {
-  width: 500px; }
+  width: 540px; }
 
 .value {
   width: 100px; }
@@ -302,8 +302,7 @@ h1 {
   font-family: 'SinkinSans-500Medium';
   font-size: 40px;
   letter-spacing: 8.5px;
-  padding-top: 25px;
-  margin: 5px 0; }
+  padding-top: 50px; }
 
 h2 {
   font-family: 'SinkinSans-500Medium';
