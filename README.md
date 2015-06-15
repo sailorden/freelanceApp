@@ -12,9 +12,15 @@ We created this app as a school project. It's our first time that we used [Angul
 ```
 npm install
 ```
-* Start MongoDB:
+* Install and start MongoDB:
 ```
+npm install sails-mongo 
 mongod --config /usr/local/etc/mongod.conf
+```
+* Create database and databaseuser:
+```
+use freelancetool
+db.createUser({user: "backend", pwd: "backend1234", roles:[{role: "readWrite", db: "freelancetool"}]})
 ```
 * Open new terminal tab and start the API:
 ```
