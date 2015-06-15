@@ -44,6 +44,12 @@ Freelance App
 - SCSS improvements
 - date 13.06.15
 
+##Update Frontend (Werner Gundacker)
+
+- new feature: delete Accountings
+- SCSS styles for the new feature
+- date 15.06.15
+
 Installation Manual Sails Backend
 ==================================
 
