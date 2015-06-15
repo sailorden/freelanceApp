@@ -32,7 +32,6 @@ projectControllers.controller('ListController', ['$scope', '$http', function($sc
       });
 
     }; //addProject
-
   });
 }]);
 
@@ -91,6 +90,18 @@ projectControllers.controller('DetailsController', ['$scope', '$http','$routePar
         console.log(data);
       });;
     };  //addAusgabe
+
+    $scope.deleteAccounting = function(itemId){
+      $http.delete(restAPIUrl+'/accountings/'+itemId)
+      .success(function(data){
+        $http.get(restAPIUrl+'/projects/'+$scope.itemId).success(function(data) {
+          $scope.projects = data;
+        });
+      })
+      .error(function(data){
+        console.log(data);
+      });;
+    };  //deleteAccounting
 
   });
 }]);

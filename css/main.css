@@ -108,15 +108,16 @@ section {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: #bccceb;
   color: #5f688c;
   font-size: 35px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  outline: none;
   float: right; }
   .btn_project:hover {
     opacity: 1; }
@@ -127,15 +128,16 @@ section {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: #A1C9A1;
   color: #417505;
   font-size: 35px;
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  cursor: pointer;
+  outline: none; }
   .btn_in:hover {
     opacity: 1; }
 
@@ -145,15 +147,16 @@ section {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: #FFCCC4;
   color: #EA523B;
   font-size: 35px;
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  cursor: pointer;
+  outline: none; }
   .btn_out:hover {
     opacity: 1; }
 
@@ -163,17 +166,46 @@ section {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: #000;
   color: #fff;
   font-size: 35px;
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  cursor: pointer;
+  outline: none; }
   .btn_back:hover {
     opacity: 1; }
+
+.btn_delete {
+  border-radius: 50%;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8;
+  margin: 0;
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #ae1d14;
+  color: #fff;
+  font-size: 14px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  float: right;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 6px; }
+  .btn_delete:hover {
+    opacity: 1; }
+  .btn_delete.project {
+    margin-top: 13px;
+    z-index: 99; }
 
 /* Listenelemente */
 ul {
@@ -185,15 +217,16 @@ ul {
   border-radius: 8px;
   margin: 10px 0 5px;
   font-size: 20px;
-  opacity: 0.8;
   display: block;
   height: 50px;
   color: #5f688c;
   background-color: #bccceb;
   line-height: 50px;
-  cursor: pointer;
   padding-top: 2px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0px 10px; }
   .li_project a[href]:hover {
     opacity: 1; }
 
@@ -201,15 +234,14 @@ ul {
   border-radius: 8px;
   margin: 10px 0 5px;
   font-size: 16px;
-  opacity: 0.8;
   display: block;
   height: 30px;
   color: #417505;
   background-color: #A1C9A1;
   line-height: 30px;
-  cursor: pointer;
   padding-top: 2px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-left: 10px; }
   .li_accounting.in:hover {
     opacity: 1; }
 
@@ -217,15 +249,14 @@ ul {
   border-radius: 8px;
   margin: 10px 0 5px;
   font-size: 16px;
-  opacity: 0.8;
   display: block;
   height: 30px;
   color: #EA523B;
   background-color: #FFCCC4;
   line-height: 30px;
-  cursor: pointer;
   padding-top: 2px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-left: 10px; }
   .li_accounting.out:hover {
     opacity: 1; }
 
@@ -233,13 +264,11 @@ ul {
   border-radius: 8px;
   margin: 10px 0 5px;
   font-size: 16px;
-  opacity: 0.8;
   display: block;
   height: 30px;
   color: #000;
   background-color: #fff;
   line-height: 30px;
-  cursor: pointer;
   padding-top: 2px;
   box-sizing: border-box; }
   .li_total:hover {
@@ -252,15 +281,16 @@ ul {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: transparent;
   color: #417505;
   font-size: 35px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  outline: none;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -275,15 +305,16 @@ ul {
   border: none !important;
   box-shadow: none !important;
   opacity: 0.8;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: transparent;
   color: #EA523B;
   font-size: 35px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  outline: none;
   text-align: right;
   padding: 20px;
   font-family: 'SinkinSans-400Regular'; }
@@ -315,15 +346,11 @@ h3 {
 
 .left {
   font-family: "SinkinSans-500Medium";
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px; }
+  float: left; }
 
 .right {
   font-family: "SinkinSans-100Thin";
-  float: right;
-  padding-left: 10px;
-  padding-right: 10px; }
+  float: right; }
 
 @font-face {
   font-family: 'SinkinSans-500Medium';

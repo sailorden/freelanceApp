@@ -66,16 +66,16 @@
   border:none !important;
   box-shadow:none !important;
   opacity: 0.8;
-  //margin: 5px 0;
+  margin: 0;
   font-family: 'Courier New';
   font-weight: bold;
-  /*margin-top: 30px;
-  margin-bottom: 25px;*/
   background-color: $background-color;
   color: $text_color;
   font-size: $fontsize;
   height: $btnheight;
   width: $btnheight;
+  cursor: pointer;
+  outline: none;
   
  
   &:hover{
@@ -101,6 +101,19 @@
   @include button_style($black, $white, $fontsize_btn_project, $height_btn_project);
 }
 
+.btn_delete{
+  @include button_style($color_btn_delete, $color_btn_delete_text, $fontsize_btn_delete, $height_btn_delete);
+  display: block;
+  float: right;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 6px;
+  &.project{
+    margin-top: 13px;
+    z-index: 99;
+  }
+}
 
 
 /* Listenelemente */
@@ -114,13 +127,11 @@ ul{
   border-radius: 8px;
   margin: 10px 0 5px;
   font-size: $fontsize;
-  opacity: 0.8;
   display: block;
   height: $height;
   color: $text_color;
   background-color: $background_color;
   line-height: $height;
-  cursor: pointer;
   padding-top: 2px;
   box-sizing: border-box;
     
@@ -132,14 +143,19 @@ ul{
 
 .li_project a[href]{
   @include list-style($color_btn_project, $color_btn_project_text, $fontsize_li_project, $height_li_project);
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0px 10px;
 }
 
 .li_accounting.in{
   @include list-style($color_btn_in, $color_btn_in_text, $fontsize_li_inout, $height_li_inout);
+  padding-left: 10px;
 }
 
 .li_accounting.out{
   @include list-style($color_btn_out, $color_btn_out_text, $fontsize_li_inout, $height_li_inout);
+  padding-left: 10px;
 }
 
 .li_total{
@@ -200,8 +216,6 @@ h3{
 @mixin text_style($fontfamily, $floatdirection){
   font-family: $fontfamily;
   float: $floatdirection;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .left{

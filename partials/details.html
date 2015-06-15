@@ -12,7 +12,7 @@
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
       <li class="li_accounting in" ng-repeat="item in projects.accountings | filter:{type:'INCOME'}">
-          <span class="left">{{item.label}} </span><span class="right">{{item.value}} €</span>
+          <span class="left">{{item.label}} </span><span class="right">{{item.value}} € <button ng-click="deleteAccounting(item.id)" title="delete" class="btn_delete">-</button></span>
           <div style="clear:both;"></div>
       </li>
       <li class="li_total">
@@ -30,7 +30,7 @@
     </form>
     <ul class="incomes" style="list-style-type: none;"> <!-- Style noch hier auf none gesetzt -->
       <li class="li_accounting out" ng-repeat="item in projects.accountings | filter:{type:'EXPENSE'}">
-          <span class="left">{{item.label}} </span><span class="right">{{item.value}} €</span>
+          <span class="left">{{item.label}} </span><span class="right">{{item.value}} €<button ng-click="deleteAccounting(item.id)" title="delete" class="btn_delete">-</button></span>
           <div style="clear:both;"></div>
       </li>
       <li class="li_total">
