@@ -17,11 +17,18 @@
 <code>
 npm install
 </code></li>
-<li>Start MongoDB:
+<li>Install and start MongoDB:
 <code>
+npm install sails-mongo
 mongod --config /usr/local/etc/mongod.conf
 </code></li>
-<li>Open new terminal tab and start the API:
+<li>Create database and databaseuser with MongoDB:
+<code>
+mongo
+use freelancetool
+db.createUser({user: &quot;backend&quot;, pwd: &quot;backend1234&quot;, roles:[{role: &quot;readWrite&quot;, db: &quot;freelancetool&quot;}]})
+</code></li>
+<li>Open new terminal tab and start the API in the backend folder:
 <code>
 node app.js
 </code></li>
