@@ -12,12 +12,6 @@ module.exports = {
           type: "string",
           required: true
       },
-      einnahmen: {
-          type: "float"
-      },
-      ausgaben: {
-          type: "float"
-      },
       // Relations
       accountings: {
           collection: 'accounting',
